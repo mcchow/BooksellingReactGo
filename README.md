@@ -24,7 +24,8 @@ Here is my Design:<br>
 This is a book storage that store different books record for each owner<br>
 user can search the system and see who own the book and what book the system have<br>
 
-![alt text](https://github.com/mcchow/BooksellingReactGo/tree/main/img/Capture.jpg?raw=true)
+DB design:<br>
+![Capture](https://user-images.githubusercontent.com/44908668/147015232-5c0fee89-cd03-4413-8d5c-d583f6588d29.PNG)
 
 book: a list of all books available in the System. As different people may have the same book, we make it one table
 author: a list of all authors. As books may have same author, we make a table to reduce storage space by FK
