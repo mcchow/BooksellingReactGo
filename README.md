@@ -3,12 +3,16 @@
 This is a go backend and react frontend project. The goal is to build a simple app that handle:<br>
 The application should meet the following criteria via API:
 
-A store owner can upload their inventory data to the application<br>
-A store owner can view their inventory data in a browser<br>
-A store owner can search their inventory data<br>
-(Bonus) A store owner can search their inventory data using multiple fields at the same time<br>
-(Bonus) The application can support multiple store owners at the same time<br>
- 
+# A store owner can upload their inventory data to the application<br>
+we have a add book function that add a book to the DB
+# A store owner can view their inventory data in a browser<br>
+we can see the by search book button on the react page
+# A store owner can search their inventory data<br>
+user can search by keyword title using the search book button
+# (Bonus) A store owner can search their inventory data using multiple fields at the same time<br>
+user can search by keyword title and owner using the search book and owner button
+# (Bonus) The application can support multiple store owners at the same time<br>
+different user can upload their data using their name/id
 
 what is looking for in this code:<br>
 
