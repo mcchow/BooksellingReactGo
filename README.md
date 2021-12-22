@@ -34,11 +34,10 @@ publisher: a list of publishers for books.(exist but not use in current developm
 store: a list of the owners of the Gravity Bookstore. Password can add if we want user verification later. For now password function have not implement yet
 store_book: stores the owner for each book, which is a many-to-many relationship.
 
-<ol>
-<li>make sure you have npm install<br></li>
 
 <b>Setup the backend:</b><br>
 <ol>
+<li>make sure you have npm install<br></li>
 <li>make sure you have npm install<br></li>
 <li>make sure you have go install<br></li>
 <li>make sure you have mysql install and setup a empty database<br></li>
