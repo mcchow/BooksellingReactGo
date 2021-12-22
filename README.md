@@ -12,13 +12,13 @@ A store owner can search their inventory data<br>
 
 what is looking for in this code:<br>
 
-1.     Does it work<br>
+1.     Does it work
 
-2.     Clean, well-organized, easy to read code<br>
+2.     Clean, well-organized, easy to read code
 
-3.     Well thought-out architectural decisions that scale and are performant<br>
+3.     Well thought-out architectural decisions that scale and are performant
 
-4.     Bonus points for writing tests<br>
+4.     Bonus points for writing tests
 
 Here is my Design:<br>
 This is a book storage that store different books record for each owner<br>
