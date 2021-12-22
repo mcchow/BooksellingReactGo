@@ -1,7 +1,6 @@
 # BooksellingReactGo
 
-This is a go backend and react frontend project. The goal is to build a simple app that handle:<br>
-The application should meet the following criteria via API:
+This is a go backend and react frontend project. The goal is to build a simple app that handle the following criteria via API:<br>
 
 ## A store owner can upload their inventory data to the application<br>
 we have a add book function that add a book to the DB
