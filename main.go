@@ -42,6 +42,8 @@ func main() {
 	http.ListenAndServe(":8000", router)
 }
 
+//  from /posts/{name}
+//  get book by title, panic and return nothing if there is any error
 func getPosts(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
 	var books []Book
@@ -69,6 +71,8 @@ func getPosts(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte(booksJSON))
 }
 
+// from /getbook/{name}/{owner}
+// return books with like name and like owner
 func getbook(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
 	var books []Book
@@ -98,6 +102,9 @@ func getbook(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte(booksJSON))
 }
 
+// from /add/{name}/{author}/{ISBN}/{owner}
+// add book if book not exist
+// add book and owner pair if not exist
 func addbook(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
 	var name = params["name"]
