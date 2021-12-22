@@ -24,12 +24,14 @@ Here is my Design:<br>
 This is a book storage that store different books record for each owner<br>
 user can search the system and see who own the book and what book the system have<br>
 
+![alt text](https://github.com/mcchow/BooksellingReactGo/tree/main/img/Capture.jpg?raw=true)
+
 book: a list of all books available in the System. As different people may have the same book, we make it one table
 author: a list of all authors. As books may have same author, we make a table to reduce storage space by FK
 book_author: stores the authors for each book, which is a many-to-many relationship.
-book_language: a list of possible languages of books.(not use in current development)
-publisher: a list of publishers for books.(not use in current development)
-store: a list of the owners of the Gravity Bookstore.
+book_language: a list of possible languages of books.(exist but not use in current development)
+publisher: a list of publishers for books.(exist but not use in current development)
+store: a list of the owners of the Gravity Bookstore. Password can add if we want user verification later. For now password function have not implement yet
 store_book: stores the owner for each book, which is a many-to-many relationship.
 
 <ol>
