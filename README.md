@@ -42,9 +42,9 @@ store_book: stores the owner for each book, which is a many-to-many relationship
 <li>make sure you have npm install<br></li>
 <li>make sure you have go install<br></li>
 <li>make sure you have mysql install and setup a empty database<br></li>
-<li>change this line in main.go with your username and password of the db, if you are using root account change <username> to root:<br>
+<li>change this line in main.go with your username and password of the db, if you are using root account change username to root:<br>
 mydb, err := sql.Open("mysql",
-		"<username>:<password>@tcp(127.0.0.1:3306)/gravity_books")<br></li>
+		"(username):(password)@tcp(127.0.0.1:3306)/gravity_books")<br></li>
 <li>run all sql code in the DBSetup file<br></li>
 <li>run <b>npm run server</b> and if you see database connect and host:8000 and it should working<br></li>
 </ol>
